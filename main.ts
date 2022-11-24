@@ -34,17 +34,11 @@ basic.forever(function () {
         rouge()
         p_go()
         basic.pause(500)
-        p_cliniote()
-        basic.pause(83.3)
-        p_stop()
-        basic.pause(83.3)
-        p_cliniote()
-        basic.pause(83.3)
-        p_stop()
-        basic.pause(83.3)
-        p_cliniote()
-        basic.pause(83.3)
-        p_stop()
-        basic.pause(83.3)
+        for (let index = 0; index < 3; index++) {
+            p_cliniote()
+            basic.pause(83.3)
+            p_stop()
+            basic.pause(83.3)
+        }
     }
 })
